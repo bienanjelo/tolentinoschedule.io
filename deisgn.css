@@ -1,0 +1,60 @@
+body{
+    font-family: arial;
+    background-color: khaki;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    box-shadow: 0 10px 20px;
+    text-align: center;
+}
+th, td{
+    padding: 5px 10px;
+}
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+table, th, td{
+    border: 3px solid;
+}
+.r{
+    background-color: brown;
+}
+.p{
+    background-color: pink;
+}
+.b{
+    background-color: lightblue;
+}
+.d{
+    background-color: darkcyan
+}
+.o{
+    background-color: olivedrab;
+}
+.w{
+    background-color: whitesmoke;
+}
+
